@@ -1,0 +1,24 @@
+{
+  "name": "gql-workout-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec ts-node main.ts"
+  },
+  "dependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/uuid": "^3.4.6",
+    "apollo-server": "^2.9.14",
+    "graphql": "^14.5.8",
+    "nodemon": "^2.0.2",
+    "pg": "^7.15.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.5.4",
+    "type-graphql": "^0.17.6",
+    "typedi": "^0.8.0",
+    "typeorm": "^0.2.22",
+    "typescript": "^3.7.4",
+    "uuid": "^3.3.3"
+  }
+}

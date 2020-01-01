@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+    database:
+        restart: always
+        image: postgres:latest
+        ports:
+            - "5432:5432"
+        environment:
+            POSTGRES_PASSWORD: 'password'
+            POSTGRES_USER: 'user'
+            POSTGRES_DB: 'twitter'
